@@ -1,5 +1,6 @@
-#Dynamically Reconfigurable Systems respository
+# Dynamically Reconfigurable Systems repository
 
 This repository contains the exercises for the Dynamically Reconfigurable Systems lecture.
 
-* [Exercise 4](execise_4/README.md):VHDl Circuits 
+## Exercises
+* [Exercise 4](execise_4): VHDL Circuits
