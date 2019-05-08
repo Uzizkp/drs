@@ -1,0 +1,105 @@
+# Loading project ex_4
+# Compile of johnson_counter.vhd was successful.
+# Compile of jc_testbench.vhd failed with 1 errors.
+# Compile of jc_testbench.vhd failed with 21 errors.
+# Compile of jc_testbench.vhd failed with 7 errors.
+# Compile of jc_testbench.vhd failed with 4 errors.
+# Compile of jc_testbench.vhd failed with 4 errors.
+# Compile of jc_testbench.vhd failed with 4 errors.
+# Compile of jc_testbench.vhd failed with 4 errors.
+# Compile of jc_testbench.vhd failed with 4 errors.
+# Compile of jc_testbench.vhd failed with 4 errors.
+# Compile of jc_testbench.vhd failed with 2 errors.
+# Compile of jc_testbench.vhd was successful.
+vsim work.jc_testbench
+# vsim work.jc_testbench 
+# Start time: 09:42:33 on May 07,2019
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.jc_testbench(impl)
+# Loading work.johnson_counter(impl_bd)
+add wave sim:/jc_testbench/*
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 50 ns.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 50 ns.
+# Compile of johnson_counter.vhd was successful.
+# Compile of jc_testbench.vhd failed with 7 errors.
+# Compile of jc_testbench.vhd was successful.
+vsim work.jc_testbench
+# End time: 09:58:32 on May 07,2019, Elapsed time: 0:15:59
+# Errors: 2, Warnings: 0
+# vsim work.jc_testbench 
+# Start time: 09:58:32 on May 07,2019
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.jc_testbench(impl)
+# Loading work.johnson_counter(impl_bd)
+add wave sim:/jc_testbench/*
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 50 ns.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 50 ns.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 50 ns.
+# WARNING: No extended dataflow license exists
+# Compile of jc_testbench.vhd was successful.
+vsim work.jc_testbench
+# End time: 10:01:01 on May 07,2019, Elapsed time: 0:02:29
+# Errors: 3, Warnings: 1
+# vsim work.jc_testbench 
+# Start time: 10:01:01 on May 07,2019
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.jc_testbench(impl)
+# Loading work.johnson_counter(impl_bd)
+add wave sim:/jc_testbench/*
+# Compile of jc_testbench.vhd was successful.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 50 ns.
+# Compile of johnson_counter.vhd was successful.
+# Compile of jc_testbench.vhd failed with 5 errors.
+# Compile of jc_testbench.vhd was successful.
+vsim work.jc_testbench
+# End time: 10:07:50 on May 07,2019, Elapsed time: 0:06:49
+# Errors: 1, Warnings: 0
+# vsim work.jc_testbench 
+# Start time: 10:07:50 on May 07,2019
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.jc_testbench(impl)
+# Loading work.johnson_counter(impl_bd)
+add wave sim:/jc_testbench/*
+run
+# Compile of johnson_counter.vhd was successful.
+vsim work.jc_testbench
+# End time: 10:11:56 on May 07,2019, Elapsed time: 0:04:06
+# Errors: 0, Warnings: 0
+# vsim work.jc_testbench 
+# Start time: 10:11:56 on May 07,2019
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.jc_testbench(impl)
+# Loading work.johnson_counter(impl_bd)
+add wave sim:/jc_testbench/*
+run
+# Compile of johnson_counter.vhd was successful.
+vsim work.jc_testbench
+# End time: 10:12:59 on May 07,2019, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 0
+# vsim work.jc_testbench 
+# Start time: 10:12:59 on May 07,2019
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.jc_testbench(impl)
+# Loading work.johnson_counter(impl_dd)
+# Loading work.d_ff(impl)
+add wave sim:/jc_testbench/*
+run
+# Compile of johnson_counter.vhd was successful.

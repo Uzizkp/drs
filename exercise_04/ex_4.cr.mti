@@ -1,0 +1,92 @@
+/home/atomman/drs_exercises/exercise_04/arb_sized_adder.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/atomman/drs_exercises/exercise_04/arb_sized_adder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity arb_sized_adder
+-- Compiling architecture impl of arb_sized_adder
+
+} {} {}} /home/atomman/drs_exercises/exercise_04/full_adder.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/atomman/drs_exercises/exercise_04/full_adder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity full_adder
+-- Compiling architecture impl_dd of full_adder
+-- Compiling architecture impl_bd of full_adder
+-- Loading entity full_adder
+
+} {} {}} /home/atomman/drs_exercises/exercise_04/rs-ff.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/atomman/drs_exercises/exercise_04/rs-ff.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity rs_ff
+-- Compiling architecture impl of rs_ff
+
+} {} {}} /home/atomman/drs_exercises/exercise_04/ripple_carry_adder.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/atomman/drs_exercises/exercise_04/ripple_carry_adder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ripple_carry_adder
+-- Compiling architecture impl of ripple_carry_adder
+
+} {} {}} /home/atomman/drs_exercises/exercise_04/d_ff.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/atomman/drs_exercises/exercise_04/d_ff.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity d_ff
+-- Compiling architecture impl of d_ff
+
+} {} {}} /home/atomman/drs_exercises/exercise_04/t_ff.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/atomman/drs_exercises/exercise_04/t_ff.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tff
+-- Compiling architecture impl of tff
+
+} {} {}} /home/atomman/drs_exercises/exercise_04/jc_testbench.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/atomman/drs_exercises/exercise_04/jc_testbench.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity jc_testbench
+-- Compiling architecture impl of jc_testbench
+
+} {} {}} /home/atomman/drs_exercises/exercise_04/ex1_3.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/atomman/drs_exercises/exercise_04/ex1_3.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity ex1_3
+-- Compiling architecture impl of ex1_3
+-- Compiling architecture impl2 of ex1_3
+-- Loading entity ex1_3
+
+} {} {}} /home/atomman/drs_exercises/exercise_04/testbench.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/atomman/drs_exercises/exercise_04/testbench.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity testbench
+-- Compiling architecture impl of testbench
+
+} {} {}} /home/atomman/drs_exercises/exercise_04/jk_ff.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/atomman/drs_exercises/exercise_04/jk_ff.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity jk_ff
+-- Compiling architecture impl of jk_ff
+
+} {} {}}
