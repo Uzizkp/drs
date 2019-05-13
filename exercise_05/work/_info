@@ -8,38 +8,38 @@ z2
 !i10f 100
 cModel Technology
 d/home/atomman/drs_exercises/exercise_04
-Etestbench
-Z0 w1557736845
-Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
-Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Pphys_quan
+Z0 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 w1557781715
 Z4 d/home/atomman/drs_exercises/exercise_05
-Z5 8/home/atomman/drs_exercises/exercise_05/work/testbench.vhd
-Z6 F/home/atomman/drs_exercises/exercise_05/work/testbench.vhd
+Z5 8/home/atomman/drs_exercises/exercise_05/work/phys_quan.vhd
+Z6 F/home/atomman/drs_exercises/exercise_05/work/phys_quan.vhd
 l0
-L7
-V2NeDIH>3Fn0zUZeI1=ci^2
-!s100 Dl>QLH>^^FN;n`=`5m^PU2
+L9
+VQT42<_T5joZS9>P4Qb3kI0
+!s100 XSiRm=67g81PMAXD@8Xc62
 Z7 OV;C;10.6d;65
 32
-Z8 !s110 1557752756
+b1
+Z8 !s110 1557781866
 !i10b 1
-Z9 !s108 1557752756.000000
-Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/atomman/drs_exercises/exercise_05/work/testbench.vhd|
-Z11 !s107 /home/atomman/drs_exercises/exercise_05/work/testbench.vhd|
+Z9 !s108 1557781866.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/atomman/drs_exercises/exercise_05/work/phys_quan.vhd|
+Z11 !s107 /home/atomman/drs_exercises/exercise_05/work/phys_quan.vhd|
 !i113 1
 Z12 o-work work -2002 -explicit
 Z13 tExplicit 1 CvgOpt 0
-Atb
-Z14 DEx4 work 15 up_down_counter 0 22 JO=I?Q9NiK4MXe[P69C0C0
+Bbody
+Z14 DPx4 work 9 phys_quan 0 22 QT42<_T5joZS9>P4Qb3kI0
+R0
 R1
 R2
-R3
-Z15 DEx4 work 9 testbench 0 22 2NeDIH>3Fn0zUZeI1=ci^2
-l16
-L10
-Z16 VA4]:VS5W`R6[Mk^5jMcOO1
-Z17 !s100 VF53eDZL3l6ER0RkBMbl^3
+l0
+L33
+VL0C7TTLMMhIWdUGV0<:nW3
+!s100 lI;8e5D<cmnfeIUO]fU<n3
 R7
 32
 R8
@@ -50,44 +50,153 @@ R11
 !i113 1
 R12
 R13
-Eup_down_counter
-Z18 w1495533996
+Pquantities
 R1
 R2
-R3
+w1557764800
 R4
-Z19 8/home/atomman/drs_exercises/exercise_05/work/up_down_counter.vhd
-Z20 F/home/atomman/drs_exercises/exercise_05/work/up_down_counter.vhd
+8/home/atomman/drs_exercises/exercise_05/work/quantities.vhd
+F/home/atomman/drs_exercises/exercise_05/work/quantities.vhd
+l0
+L8
+V?z7b9?aP4Xn]N>ZlPM=G72
+!s100 2GG<Qg84jQcaQj60bjc:[3
+R7
+32
+b1
+!s110 1557764805
+!i10b 1
+!s108 1557764805.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/atomman/drs_exercises/exercise_05/work/quantities.vhd|
+!s107 /home/atomman/drs_exercises/exercise_05/work/quantities.vhd|
+!i113 1
+R12
+R13
+Etestbench
+Z15 w1557781594
+Z16 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R1
+R2
+R4
+Z17 8/home/atomman/drs_exercises/exercise_05/work/testbench.vhd
+Z18 F/home/atomman/drs_exercises/exercise_05/work/testbench.vhd
+l0
+L12
+V3mhB2[`eAfBlL0IA:5[T:1
+!s100 E2fJ5CaXihi_>H`Q6FY`D2
+R7
+32
+R8
+!i10b 1
+R9
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/atomman/drs_exercises/exercise_05/work/testbench.vhd|
+Z20 !s107 /home/atomman/drs_exercises/exercise_05/work/testbench.vhd|
+!i113 1
+R12
+R13
+Atb
+Z21 DEx4 work 15 up_down_counter 0 22 JO=I?Q9NiK4MXe[P69C0C0
+R16
+R1
+R2
+DEx4 work 9 testbench 0 22 3mhB2[`eAfBlL0IA:5[T:1
+l21
+L15
+VoH9?05d3Mg@UaV70MW=[43
+!s100 dFh[z7?L4fZzH9VZiL^7z1
+R7
+32
+R8
+!i10b 1
+R9
+R19
+R20
+!i113 1
+R12
+R13
+Etestbench2
+Z22 w1557781590
+R0
+R14
+R16
+R1
+R2
+R4
+Z23 8/home/atomman/drs_exercises/exercise_05/work/testbench2.vhd
+Z24 F/home/atomman/drs_exercises/exercise_05/work/testbench2.vhd
+l0
+L10
+V;6XC5FG0EMM1G=SND6nEk0
+!s100 ZgIgJ2iQ51gga?=aDE0em1
+R7
+32
+R8
+!i10b 1
+R9
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/atomman/drs_exercises/exercise_05/work/testbench2.vhd|
+Z26 !s107 /home/atomman/drs_exercises/exercise_05/work/testbench2.vhd|
+!i113 1
+R12
+R13
+Atb
+R0
+R14
+R16
+R1
+R2
+Z27 DEx4 work 10 testbench2 0 22 ;6XC5FG0EMM1G=SND6nEk0
+l16
+L13
+Z28 V2:U6SmgA]=Imj<ZJ8fCId2
+Z29 !s100 hf=4R_oRl0d8Wg7U1:mHV3
+R7
+32
+R8
+!i10b 1
+R9
+R25
+R26
+!i113 1
+R12
+R13
+Eup_down_counter
+Z30 w1495533996
+R16
+R1
+R2
+R4
+Z31 8/home/atomman/drs_exercises/exercise_05/work/up_down_counter.vhd
+Z32 F/home/atomman/drs_exercises/exercise_05/work/up_down_counter.vhd
 l0
 L7
 VJO=I?Q9NiK4MXe[P69C0C0
 !s100 ;4QA67D1O7A1ZM0aGIcZ;0
 R7
 32
-Z21 !s110 1557729929
+R8
 !i10b 1
-Z22 !s108 1557729929.000000
-Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/atomman/drs_exercises/exercise_05/work/up_down_counter.vhd|
-Z24 !s107 /home/atomman/drs_exercises/exercise_05/work/up_down_counter.vhd|
+R9
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/atomman/drs_exercises/exercise_05/work/up_down_counter.vhd|
+Z34 !s107 /home/atomman/drs_exercises/exercise_05/work/up_down_counter.vhd|
 !i113 1
 R12
 R13
 Abehav
+R16
 R1
 R2
-R3
-R14
+R21
 l21
 L18
 Vbn7Nf^>foz7fcEhE<9NO21
 !s100 o3eiZWJcQ>RonU]gMnbkz1
 R7
 32
-R21
+R8
 !i10b 1
-R22
-R23
-R24
+R9
+R33
+R34
 !i113 1
 R12
 R13

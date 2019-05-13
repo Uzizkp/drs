@@ -1,4 +1,15 @@
-/home/atomman/drs_exercises/exercise_05/work/up_down_counter.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/atomman/drs_exercises/exercise_05/work/up_down_counter.vhd
+/home/atomman/drs_exercises/exercise_05/work/testbench2.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/atomman/drs_exercises/exercise_05/work/testbench2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package phys_quan
+-- Compiling entity testbench2
+-- Compiling architecture tb of testbench2
+
+} {} {}} /home/atomman/drs_exercises/exercise_05/work/up_down_counter.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/atomman/drs_exercises/exercise_05/work/up_down_counter.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -6,5 +17,25 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 2
 -- Loading package NUMERIC_STD
 -- Compiling entity up_down_counter
 -- Compiling architecture behav of up_down_counter
+
+} {} {}} /home/atomman/drs_exercises/exercise_05/work/testbench.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/atomman/drs_exercises/exercise_05/work/testbench.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity testbench
+-- Compiling architecture tb of testbench
+-- Loading entity up_down_counter
+
+} {} {}} /home/atomman/drs_exercises/exercise_05/work/phys_quan.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/atomman/drs_exercises/exercise_05/work/phys_quan.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling package phys_quan
+-- Compiling package body phys_quan
+-- Loading package phys_quan
 
 } {} {}}
