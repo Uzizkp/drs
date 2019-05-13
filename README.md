@@ -4,3 +4,5 @@ This repository contains the exercises for the Dynamically Reconfigurable System
 
 ## Exercises
 * [Exercise 4](drs/execise_4/): VHDL Circuits
+* [Exercise 5](drs/execise_5/): VHDL Testbench and Physical type
+
