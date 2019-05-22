@@ -1,0 +1,10 @@
+# Loading project ex_06
+# Compile of acc_pkg.vhd was successful.
+# Compile of fifo.vhd was successful.
+# Compile of mem.vhd was successful.
+# Compile of tb_fifo.vhd was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of acc.vhd failed with 1 errors.
+# Compile of acc.vhd failed with 1 errors.
+# Compile of acc.vhd failed with 7 errors.
+# Compile of acc.vhd failed with 6 errors.
