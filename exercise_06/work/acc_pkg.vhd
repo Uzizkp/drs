@@ -5,7 +5,7 @@ package acc_pkg is
         length: natural range 0 to 255;
     end record;
 
-    type acc_status is (idle, finished);
+    type acc_status is (idle, finished, busy);
 
     type instruction_array is array(natural range <>) of instruction;
 

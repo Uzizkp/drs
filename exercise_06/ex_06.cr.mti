@@ -1,4 +1,24 @@
-/home/atomman/drs_exercises/exercise_06/work/mem.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/atomman/drs_exercises/exercise_06/work/mem.vhd
+/home/atomman/drs_exercises/exercise_06/work/tb_fifo.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/atomman/drs_exercises/exercise_06/work/tb_fifo.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_fifo
+-- Compiling architecture impl of tb_fifo
+-- Loading entity fifo
+
+} {} {}} /home/atomman/drs_exercises/exercise_06/work/acc.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/atomman/drs_exercises/exercise_06/work/acc.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package acc_pkg
+-- Compiling entity acc
+-- Compiling architecture impl of acc
+
+} {} {}} /home/atomman/drs_exercises/exercise_06/work/mem.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/atomman/drs_exercises/exercise_06/work/mem.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -6,5 +26,37 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 2
 -- Loading package NUMERIC_STD
 -- Compiling entity mem
 -- Compiling architecture impl of mem
+
+} {} {}} /home/atomman/drs_exercises/exercise_06/work/tb_acc.vhdl {1 {vcom -work work -2002 -explicit -stats=none /home/atomman/drs_exercises/exercise_06/work/tb_acc.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package acc_pkg
+-- Compiling entity tb_acc
+-- Compiling architecture impl of tb_acc
+-- Loading entity acc
+-- Loading entity mem
+
+} {} {}} /home/atomman/drs_exercises/exercise_06/work/fifo.vhd {0 {vcom -work work -2002 -explicit -stats=none /home/atomman/drs_exercises/exercise_06/work/fifo.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity fifo
+** Error: /home/atomman/drs_exercises/exercise_06/work/fifo.vhd(16): (vcom-1136) Unknown identifier "n".
+** Error: /home/atomman/drs_exercises/exercise_06/work/fifo.vhd(16): ** Error: (vcom-1591) Bad expression in left bound of range expression.
+** Error: /home/atomman/drs_exercises/exercise_06/work/fifo.vhd(16): Type error in range expression.
+** Error: /home/atomman/drs_exercises/exercise_06/work/fifo.vhd(21): (vcom-1136) Unknown identifier "n".
+** Error: /home/atomman/drs_exercises/exercise_06/work/fifo.vhd(21): ** Error: (vcom-1591) Bad expression in left bound of range expression.
+** Error: /home/atomman/drs_exercises/exercise_06/work/fifo.vhd(21): Type error in range expression.
+** Error: /home/atomman/drs_exercises/exercise_06/work/fifo.vhd(24): VHDL Compiler exiting
+
+} {8.0 15.0} {}} /home/atomman/drs_exercises/exercise_06/work/acc_pkg.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/atomman/drs_exercises/exercise_06/work/acc_pkg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Compiling package acc_pkg
 
 } {} {}}

@@ -8,7 +8,7 @@ use ieee.numeric_std.all;
 
 --fifo entity
 entity fifo is
-	generic(n,d : positive);
+	generic(addr_bits, data_bits : positive);
 	port (
 		-- inputs
 		clk : in std_ulogic;
@@ -17,8 +17,7 @@ entity fifo is
 		wr_en, rd_en : in std_ulogic;	-- write and read
 
 		-- outputs
-		full  : buffer std_ulogic := '0';
-		empty : buffer std_ulogic := '1';
+		full, empty : out std_ulogic;
 		dout : out std_ulogic_vector(n-1 downto 0);
 		level : out natural -- number of content
 		);
@@ -26,11 +25,10 @@ end fifo;
 
 -- fifo implement
 architecture impl of fifo is
+	type ram_type is array(d-1 downto 0) of std_ulogic_vector(n-1 downto 0);
 begin
 	process(clk, din, wr_en, rd_en)
-
-	type fifo_content is array(d-1 downto 0) of std_ulogic_vector(n-1 downto 0);
-	variable words: fifo_content;
+	variable words: ram_type;
 	variable head : natural range 0 to d-1;
 	variable tail : natural range 0 to d-1;
 	variable num :  natural := 0;

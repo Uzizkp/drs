@@ -1,10 +1,482 @@
 # Loading project ex_06
+# Compile of acc.vhd failed with 2 errors.
+# Compile of acc.vhd failed with 9 errors.
 # Compile of acc_pkg.vhd was successful.
-# Compile of fifo.vhd was successful.
-# Compile of mem.vhd was successful.
-# Compile of tb_fifo.vhd was successful.
-# 4 compiles, 0 failed with no errors.
-# Compile of acc.vhd failed with 1 errors.
-# Compile of acc.vhd failed with 1 errors.
-# Compile of acc.vhd failed with 7 errors.
 # Compile of acc.vhd failed with 6 errors.
+# Compile of acc.vhd failed with 6 errors.
+# Compile of acc.vhd failed with 4 errors.
+# Compile of acc.vhd failed with 4 errors.
+# Compile of acc.vhd failed with 2 errors.
+# Compile of acc.vhd failed with 3 errors.
+# Compile of acc.vhd failed with 3 errors.
+# Compile of acc_pkg.vhd was successful.
+# Compile of acc.vhd failed with 2 errors.
+# Compile of acc.vhd was successful with warnings.
+# Compile of fifo.vhd failed with 9 errors.
+# Compile of tb_acc.vhdl failed with 22 errors.
+# Compile of tb_acc.vhdl failed with 11 errors.
+# Compile of tb_acc.vhdl failed with 10 errors.
+# Compile of tb_acc.vhdl failed with 8 errors.
+# Compile of tb_acc.vhdl failed with 7 errors.
+# Compile of tb_acc.vhdl failed with 6 errors.
+# Compile of tb_acc.vhdl failed with 6 errors.
+# Compile of tb_acc.vhdl failed with 6 errors.
+# Compile of tb_acc.vhdl failed with 4 errors.
+# Compile of tb_acc.vhdl failed with 1 errors.
+# Compile of tb_acc.vhdl failed with 2 errors.
+# Compile of tb_acc.vhdl failed with 2 errors.
+# Compile of tb_acc.vhdl failed with 2 errors.
+# Compile of tb_acc.vhdl failed with 2 errors.
+# Compile of tb_acc.vhdl failed with 2 errors.
+# Compile of fifo.vhd failed with 9 errors.
+# Compile of acc.vhd was successful with warnings.
+# Compile of tb_acc.vhdl was successful.
+vsim work.tb_acc
+# vsim work.tb_acc 
+# Start time: 18:49:13 on May 23,2019
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.acc_pkg
+# Loading work.tb_acc(impl)
+# Loading work.acc(impl)
+# Loading work.mem(impl)
+add wave sim:/tb_acc/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/mem_uut
+# Break key hit
+# Break in Process main at /home/atomman/drs_exercises/exercise_06/work/acc.vhd line 55
+# Break key hit
+run
+# Break key hit
+# Break in Process main at /home/atomman/drs_exercises/exercise_06/work/acc.vhd line 55
+# Compile of tb_acc.vhdl was successful.
+# Compile of tb_acc.vhdl was successful.
+restart
+# Loading work.tb_acc(impl)
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/mem_uut
+# Break key hit
+# Break in Process main at /home/atomman/drs_exercises/exercise_06/work/acc.vhd line 55
+# Compile of tb_acc.vhdl was successful.
+restart
+# Loading work.tb_acc(impl)
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/mem_uut
+# Break key hit
+# Break in Process main at /home/atomman/drs_exercises/exercise_06/work/acc.vhd line 55
+run
+# Break key hit
+# Break in Process main at /home/atomman/drs_exercises/exercise_06/work/acc.vhd line 55
+# Compile of acc.vhd was successful.
+restart
+# Loading work.acc(impl)
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/mem_uut
+# ** Note: 1st:
+# 0
+#    Time: 15 ns  Iteration: 3  Instance: /tb_acc
+run
+run
+# ** Note: 2nd
+# 0
+#    Time: 245 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 3rd
+# 0
+#    Time: 285 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 1st:
+# 0
+#    Time: 325 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 2nd
+# 0
+#    Time: 365 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 3rd
+# 0
+#    Time: 565 ns  Iteration: 3  Instance: /tb_acc
+restart
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/mem_uut
+# ** Note: 1st:
+# 0
+#    Time: 15 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 2nd
+# 0
+#    Time: 245 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 3rd
+# 0
+#    Time: 285 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 1st:
+# 0
+#    Time: 325 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 2nd
+# 0
+#    Time: 365 ns  Iteration: 3  Instance: /tb_acc
+# Compile of tb_acc.vhdl failed with 4 errors.
+# Compile of tb_acc.vhdl was successful.
+run
+# ** Note: 3rd
+# 0
+#    Time: 565 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 1st:
+# 0
+#    Time: 765 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 2nd
+# 0
+#    Time: 845 ns  Iteration: 3  Instance: /tb_acc
+restart
+# Loading work.tb_acc(impl)
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb_acc/dout'. 
+restart
+vsim work.tb_acc
+# End time: 19:13:06 on May 23,2019, Elapsed time: 0:23:53
+# Errors: 1, Warnings: 0
+# vsim work.tb_acc 
+# Start time: 19:13:06 on May 23,2019
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.acc_pkg
+# Loading work.tb_acc(impl)
+# Loading work.acc(impl)
+# Loading work.mem(impl)
+add wave sim:/tb_acc/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/mem_uut
+# ** Note: 1st:
+# 0
+#    Time: 15 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 2nd
+# 120957
+#    Time: 245 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 3rd
+# 2461
+#    Time: 285 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 1st:
+# 2461
+#    Time: 325 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 2nd
+# 4852
+#    Time: 365 ns  Iteration: 3  Instance: /tb_acc
+restart
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/mem_uut
+# ** Note: 1st:
+# 0
+#    Time: 15 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 2nd
+# 120957
+#    Time: 245 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 3rd
+# 2461
+#    Time: 285 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 1st:
+# 2461
+#    Time: 325 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 2nd
+# 4852
+#    Time: 365 ns  Iteration: 3  Instance: /tb_acc
+restart
+# Compile of tb_acc.vhdl was successful.
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/mem_uut
+# ** Note: 1st:
+# 0
+#    Time: 15 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 2nd
+# 120957
+#    Time: 245 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 3rd
+# 2461
+#    Time: 285 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 1st:
+# 2461
+#    Time: 325 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 2nd
+# 4852
+#    Time: 365 ns  Iteration: 3  Instance: /tb_acc
+# Compile of tb_acc.vhdl was successful.
+restart
+# Loading work.tb_acc(impl)
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/mem_uut
+# ** Note: 1st:
+# 120957
+#    Time: 215 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 2nd
+# 2461
+#    Time: 255 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 3rd
+# 4852
+#    Time: 295 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 1st:
+# 82812
+#    Time: 495 ns  Iteration: 3  Instance: /tb_acc
+# Compile of tb_acc.vhdl was successful.
+restart
+# Loading work.tb_acc(impl)
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/mem_uut
+# ** Note: 1st:
+# 0
+#    Time: 5 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 2nd
+# 120957
+#    Time: 245 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 3rd
+# 2461
+#    Time: 285 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 1st:
+# 0
+#    Time: 305 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 2nd
+# 4852
+#    Time: 365 ns  Iteration: 3  Instance: /tb_acc
+# Compile of tb_acc.vhdl was successful.
+restart
+# Loading work.tb_acc(impl)
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/mem_uut
+# ** Note: 1st:
+# 0
+#    Time: 15 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 2nd
+# 2461
+#    Time: 55 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 3rd
+# 4852
+#    Time: 95 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 1st:
+# 4852
+#    Time: 135 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 2nd
+# 14269
+#    Time: 215 ns  Iteration: 3  Instance: /tb_acc
+# Compile of tb_acc.vhdl was successful.
+restart
+# Loading work.tb_acc(impl)
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/mem_uut
+# ** Note: 1st:
+# 0
+#    Time: 15 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 2nd
+# 120957
+#    Time: 245 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 3rd
+# 2461
+#    Time: 285 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 1st:
+# 2461
+#    Time: 325 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 2nd
+# 4852
+#    Time: 365 ns  Iteration: 3  Instance: /tb_acc
+# Compile of tb_acc.vhdl was successful.
+restart
+# Loading work.tb_acc(impl)
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/mem_uut
+# ** Note: 1st
+# 120957
+#    Time: 245 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 2nd
+# 2461
+#    Time: 285 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 1st
+# 4852
+#    Time: 365 ns  Iteration: 3  Instance: /tb_acc
+# Compile of tb_acc.vhdl was successful.
+restart
+# Loading work.tb_acc(impl)
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/mem_uut
+# ** Note: 1st
+# 0
+#    Time: 45 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 2nd
+# 120957
+#    Time: 275 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 3rd
+# 2461
+#    Time: 315 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 1st
+# 2461
+#    Time: 395 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 2nd
+# 4852
+#    Time: 435 ns  Iteration: 3  Instance: /tb_acc
+# Compile of tb_acc.vhdl was successful.
+restart
+# Loading work.tb_acc(impl)
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/mem_uut
+# ** Note: 1st
+# 0
+#    Time: 15 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 2nd
+# 120957
+#    Time: 245 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 3rd
+# 2461
+#    Time: 285 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 1st
+# 2461
+#    Time: 325 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 2nd
+# 4852
+#    Time: 365 ns  Iteration: 3  Instance: /tb_acc
+# Compile of tb_acc.vhdl was successful.
+restart
+# Loading work.tb_acc(impl)
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/mem_uut
+# ** Note: 2nd
+# 120957
+#    Time: 245 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 3rd
+# 2461
+#    Time: 285 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: 2nd
+# 4852
+#    Time: 365 ns  Iteration: 3  Instance: /tb_acc
+# Compile of tb_acc.vhdl failed with 13 errors.
+# Compile of tb_acc.vhdl failed with 13 errors.
+# Compile of tb_acc.vhdl failed with 12 errors.
+# Compile of tb_acc.vhdl failed with 11 errors.
+# Compile of tb_acc.vhdl failed with 7 errors.
+# Compile of tb_acc.vhdl failed with 5 errors.
+# Compile of tb_acc.vhdl was successful.
+restart
+# Loading work.tb_acc(impl)
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/mem_uut
+# ** Note: No.120957
+#    Time: 245 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: No.2461
+#    Time: 285 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: No.4852
+#    Time: 325 ns  Iteration: 3  Instance: /tb_acc
+# Compile of tb_acc.vhdl failed with 2 errors.
+# Compile of tb_acc.vhdl was successful.
+restart
+# Loading work.tb_acc(impl)
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/mem_uut
+# ** Note: No.0120957
+#    Time: 245 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: No.12461
+#    Time: 285 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: No.24852
+#    Time: 325 ns  Iteration: 3  Instance: /tb_acc
+# Compile of tb_acc.vhdl failed with 2 errors.
+# Compile of tb_acc.vhdl failed with 2 errors.
+# Compile of tb_acc.vhdl was successful.
+restart
+# Loading work.tb_acc(impl)
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/mem_uut
+# ** Note: No.0:  120957
+#    Time: 245 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: No.1:  2461
+#    Time: 285 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: No.2:  4852
+#    Time: 325 ns  Iteration: 3  Instance: /tb_acc
+# Compile of tb_acc.vhdl was successful.
+restart
+# Loading work.tb_acc(impl)
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/mem_uut
+# ** Note: instruction No.0:  120957
+#    Time: 245 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: instruction No.1:  2461
+#    Time: 285 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: instruction No.2:  4852
+#    Time: 325 ns  Iteration: 3  Instance: /tb_acc
+restart
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/mem_uut
+# ** Note: instruction No.0:  120957
+#    Time: 245 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: instruction No.1:  2461
+#    Time: 285 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: instruction No.2:  4852
+#    Time: 325 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: instruction No.3:  82812
+#    Time: 525 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: instruction No.4:  14269
+#    Time: 605 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: instruction No.5:  381040
+#    Time: 1365 ns  Iteration: 3  Instance: /tb_acc
+restart
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/mem_uut
+# ** Note: instruction No.0:  120957
+#    Time: 245 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: instruction No.1:  2461
+#    Time: 285 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: instruction No.2:  4852
+#    Time: 325 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: instruction No.3:  82812
+#    Time: 525 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: instruction No.4:  14269
+#    Time: 605 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: instruction No.5:  381040
+#    Time: 1365 ns  Iteration: 3  Instance: /tb_acc
+restart
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/mem_uut
+# ** Note: instruction No.0:  120957
+#    Time: 245 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: instruction No.1:  2461
+#    Time: 285 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: instruction No.2:  4852
+#    Time: 325 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: instruction No.3:  82812
+#    Time: 525 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: instruction No.4:  14269
+#    Time: 605 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: instruction No.5:  381040
+#    Time: 1365 ns  Iteration: 3  Instance: /tb_acc
+restart
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/mem_uut
+# ** Note: instruction No.0:  120957
+#    Time: 245 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: instruction No.1:  2461
+#    Time: 285 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: instruction No.2:  4852
+#    Time: 325 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: instruction No.3:  82812
+#    Time: 525 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: instruction No.4:  14269
+#    Time: 605 ns  Iteration: 3  Instance: /tb_acc
+# ** Note: instruction No.5:  381040
+#    Time: 1365 ns  Iteration: 3  Instance: /tb_acc
+# End time: 19:52:04 on May 23,2019, Elapsed time: 0:38:58
+# Errors: 0, Warnings: 1

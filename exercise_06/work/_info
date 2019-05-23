@@ -9,168 +9,233 @@ z2
 cModel Technology
 d/home/atomman/drs_exercises/exercise_05
 Eacc
-w1558519282
-DPx4 work 7 acc_pkg 0 22 4EXfkhn9U]SK^2IPbV?Ga2
-Z0 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
-Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z3 d/home/atomman/drs_exercises/exercise_06
-8/home/atomman/drs_exercises/exercise_06/work/acc.vhd
-F/home/atomman/drs_exercises/exercise_06/work/acc.vhd
+Z0 w1558630885
+Z1 DPx4 work 7 acc_pkg 0 22 ?N0]j6XEjS[1la@]C2maK0
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 d/home/atomman/drs_exercises/exercise_06
+Z6 8/home/atomman/drs_exercises/exercise_06/work/acc.vhd
+Z7 F/home/atomman/drs_exercises/exercise_06/work/acc.vhd
 l0
 L10
-V8id5_:3[VdcI]PXb:g[dJ1
-!s100 >HC]`GlFF;ddMfK8O?81X3
-Z4 OV;C;10.6d;65
+Vbc[2=c_2];e1PWmjliFW]2
+!s100 noKKH8m;5g5UA1bGT5G2^2
+Z8 OV;C;10.6d;65
 32
-!s110 1558519287
+Z9 !s110 1558630897
 !i10b 1
-!s108 1558519287.000000
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/atomman/drs_exercises/exercise_06/work/acc.vhd|
-!s107 /home/atomman/drs_exercises/exercise_06/work/acc.vhd|
+Z10 !s108 1558630897.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/atomman/drs_exercises/exercise_06/work/acc.vhd|
+Z12 !s107 /home/atomman/drs_exercises/exercise_06/work/acc.vhd|
 !i113 1
-Z5 o-work work -2002 -explicit
-Z6 tExplicit 1 CvgOpt 0
-Pacc_pkg
-w1558395533
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Aimpl
+R1
+R2
 R3
+R4
+Z15 DEx4 work 3 acc 0 22 bc[2=c_2];e1PWmjliFW]2
+l29
+L22
+VzZ_ImSlkW8A:BV4HUT`XY0
+!s100 oEk_T:h3[mHEn^gJ0DKT`1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Pacc_pkg
+w1558626600
+R5
 8/home/atomman/drs_exercises/exercise_06/work/acc_pkg.vhd
 F/home/atomman/drs_exercises/exercise_06/work/acc_pkg.vhd
 l0
 L2
-V4EXfkhn9U]SK^2IPbV?Ga2
-!s100 AJ4o:9:0cHQlRlzL`3gQB2
-R4
+V?N0]j6XEjS[1la@]C2maK0
+!s100 ZecTEgeYZUBafInH6Z10h1
+R8
 32
-Z7 !s110 1558427966
+!s110 1558626611
 !i10b 1
-Z8 !s108 1558427966.000000
+!s108 1558626610.000000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/atomman/drs_exercises/exercise_06/work/acc_pkg.vhd|
 !s107 /home/atomman/drs_exercises/exercise_06/work/acc_pkg.vhd|
 !i113 1
-R5
-R6
+R13
+R14
 Efifo
-Z9 w1558393959
-R0
-R1
+Z16 w1558393959
 R2
 R3
-Z10 8/home/atomman/drs_exercises/exercise_06/work/fifo.vhd
-Z11 F/home/atomman/drs_exercises/exercise_06/work/fifo.vhd
+R4
+R5
+Z17 8/home/atomman/drs_exercises/exercise_06/work/fifo.vhd
+Z18 F/home/atomman/drs_exercises/exercise_06/work/fifo.vhd
 l0
 L10
 VaI>0HXil741bnnd8o:HN_3
 !s100 Ya1G3mzF^KKihKQ?Dn6[i2
-R4
-32
-R7
-!i10b 1
 R8
-Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/atomman/drs_exercises/exercise_06/work/fifo.vhd|
-Z13 !s107 /home/atomman/drs_exercises/exercise_06/work/fifo.vhd|
+32
+Z19 !s110 1558427966
+!i10b 1
+Z20 !s108 1558427966.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/atomman/drs_exercises/exercise_06/work/fifo.vhd|
+Z22 !s107 /home/atomman/drs_exercises/exercise_06/work/fifo.vhd|
 !i113 1
-R5
-R6
+R13
+R14
 Aimpl
-R0
-R1
 R2
-Z14 DEx4 work 4 fifo 0 22 aI>0HXil741bnnd8o:HN_3
+R3
+R4
+Z23 DEx4 work 4 fifo 0 22 aI>0HXil741bnnd8o:HN_3
 l29
 L28
 ViOPDn9QUcG48<EA^DR]WI0
 !s100 =ifmizU3nU`5SJf3WeinZ1
-R4
-32
-R7
-!i10b 1
 R8
-R12
-R13
+32
+R19
+!i10b 1
+R20
+R21
+R22
 !i113 1
-R5
-R6
+R13
+R14
 Emem
-Z15 w1557747608
-R0
-R1
+Z24 w1557747608
 R2
 R3
-Z16 8/home/atomman/drs_exercises/exercise_06/work/mem.vhd
-Z17 F/home/atomman/drs_exercises/exercise_06/work/mem.vhd
+R4
+R5
+Z25 8/home/atomman/drs_exercises/exercise_06/work/mem.vhd
+Z26 F/home/atomman/drs_exercises/exercise_06/work/mem.vhd
 l0
 L6
 V?Xg]WS@G?X7eR2iE[8PTF0
 !s100 U8X3nRS[`NT2Ie>`ZhLO>0
-R4
-32
-R7
-!i10b 1
 R8
-Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/atomman/drs_exercises/exercise_06/work/mem.vhd|
-Z19 !s107 /home/atomman/drs_exercises/exercise_06/work/mem.vhd|
+32
+R19
+!i10b 1
+R20
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/atomman/drs_exercises/exercise_06/work/mem.vhd|
+Z28 !s107 /home/atomman/drs_exercises/exercise_06/work/mem.vhd|
 !i113 1
-R5
-R6
+R13
+R14
 Aimpl
-R0
-R1
 R2
-DEx4 work 3 mem 0 22 ?Xg]WS@G?X7eR2iE[8PTF0
+R3
+R4
+Z29 DEx4 work 3 mem 0 22 ?Xg]WS@G?X7eR2iE[8PTF0
 l276
 L13
 VbIhR9XEcgoC?@Xk4Mz9kG3
 !s100 0aJNzaj`_Q;Y>cPZYanSR0
-R4
-32
-R7
-!i10b 1
 R8
-R18
+32
 R19
+!i10b 1
+R20
+R27
+R28
 !i113 1
-R5
-R6
-Etb_fifo
-Z20 w1558394800
-R0
+R13
+R14
+Etb_acc
+Z30 w1558633476
 R1
 R2
 R3
-Z21 8/home/atomman/drs_exercises/exercise_06/work/tb_fifo.vhd
-Z22 F/home/atomman/drs_exercises/exercise_06/work/tb_fifo.vhd
+R4
+R5
+Z31 8/home/atomman/drs_exercises/exercise_06/work/tb_acc.vhdl
+Z32 F/home/atomman/drs_exercises/exercise_06/work/tb_acc.vhdl
+l0
+L6
+V=SKDX:Yli4F3_3>CZ5lES3
+!s100 BWQ9;z@3>AN09B<POK1lV3
+R8
+32
+Z33 !s110 1558633480
+!i10b 1
+Z34 !s108 1558633480.000000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/atomman/drs_exercises/exercise_06/work/tb_acc.vhdl|
+Z36 !s107 /home/atomman/drs_exercises/exercise_06/work/tb_acc.vhdl|
+!i113 1
+R13
+R14
+Aimpl
+R29
+R15
+R1
+R2
+R3
+R4
+Z37 DEx4 work 6 tb_acc 0 22 =SKDX:Yli4F3_3>CZ5lES3
+l21
+L9
+VS];BP1e:jjnRAg7S;j95:3
+!s100 ^cLc7mdc8^ZI`i0JTF0bW2
+R8
+32
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R13
+R14
+Etb_fifo
+Z38 w1558394800
+R2
+R3
+R4
+R5
+Z39 8/home/atomman/drs_exercises/exercise_06/work/tb_fifo.vhd
+Z40 F/home/atomman/drs_exercises/exercise_06/work/tb_fifo.vhd
 l0
 L10
 VT5RQA3?P];;i=;LTUTEFJ2
 !s100 ^bl=<8iknoL`NEnENa3SO3
-R4
-32
-R7
-!i10b 1
 R8
-Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/atomman/drs_exercises/exercise_06/work/tb_fifo.vhd|
-Z24 !s107 /home/atomman/drs_exercises/exercise_06/work/tb_fifo.vhd|
+32
+R19
+!i10b 1
+R20
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/atomman/drs_exercises/exercise_06/work/tb_fifo.vhd|
+Z42 !s107 /home/atomman/drs_exercises/exercise_06/work/tb_fifo.vhd|
 !i113 1
-R5
-R6
-Aimpl
+R13
 R14
-R0
-R1
+Aimpl
+R23
 R2
+R3
+R4
 DEx4 work 7 tb_fifo 0 22 T5RQA3?P];;i=;LTUTEFJ2
 l34
 L14
 VEgm>Rhhnz4ZW<L^OOPei]0
 !s100 @dh0zz<JiaP7U3gS4KA0j3
-R4
-32
-R7
-!i10b 1
 R8
-R23
-R24
+32
+R19
+!i10b 1
+R20
+R41
+R42
 !i113 1
-R5
-R6
+R13
+R14

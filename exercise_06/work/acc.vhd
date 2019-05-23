@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------
--- sheet 6 exercise 2 fifo
+-- sheet 6 exercise 2 acc
 -- Kuangpu Zhang, Tianyang Liu
 ----------------------------------------------------------------------------------
 library ieee;
@@ -10,29 +10,47 @@ use work.acc_pkg.all;
 entity acc is
   port(
     clk   : in std_ulogic;
-    instr : buffer instruction;
-    din   : buffer std_ulogic_vector(31 downto 0);
+    instr : in instruction;
+    din   : in std_ulogic_vector(31 downto 0);
 
-    status: buffer acc_status;
+    status: out acc_status;
     addr  : out std_ulogic_vector(7 downto 0);
     dout  : out std_ulogic_vector(31 downto 0)
     );
 end acc;
 
 architecture impl of acc is
-  signal sum : std_ulogic_vector(31 downto 0);
 
+  signal acc : unsigned(31 downto 0) := (others => '0');
+  signal state : acc_status := idle;
+  signal current_addr : unsigned(7 downto 0) := (others => '0');
+  signal counter : unsigned(7 downto 0) := (others => '0');
+
+begin
+  status <= state;
+  addr <= std_ulogic_vector(current_addr);
+  dout <= std_ulogic_vector(acc);
+
+  main: process
   begin
-  acc_loop: for i in 1 to instr.length generate
-    uut: entity work.mem
-    port map(
-      instr.addr => addr,
-      dout => din
-    );
-    instr.addr <= instr.addr + 1;
-    sum <= sum + din;
-    status <= 'finished';
-  end generate when (rising_eadge(clk) and status = 'idle');
-  dout <= sum
+    wait until rising_edge(clk);
+    case state is
+    when idle =>
+      state <= busy;
+      current_addr <= to_unsigned(instr.addr,current_addr'length);
+      counter <= to_unsigned(instr.length, counter'length);
+    when busy =>
+      if (counter > 0) then
+        counter <= counter - 1;
+        current_addr <= current_addr + 1;
+        acc <= acc + unsigned(din);
+      else
+        state <= finished;
+      end if;
+    when finished =>
+      state <= idle;
+      acc <= (acc'range => '0');
+    end case;
+  end process;
 
 end architecture;
